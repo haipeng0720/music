@@ -7,7 +7,7 @@
 		, {
 			"path": "pages/song/song",
 			"style": {}
-		}
+		}  
 	    ,{
             "path" : "pages/top/top",
             "style" : {}

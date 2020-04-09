@@ -7,7 +7,7 @@
 				</view>
 				<view class="titles">
 					<text class="titles-text">{{songname}}</text>
-				</view>
+				</view> 
 			</view>
 		</view>
 		<view class="play-box">
