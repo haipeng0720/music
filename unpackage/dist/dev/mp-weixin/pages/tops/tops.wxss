@@ -1,0 +1,161 @@
+
+.status_bar {
+	height: 140rpx;
+	width: 100%;
+	background: #31C27C;
+}
+.toTop {
+	bottom: calc(0px + 10px)
+}
+.top-box {
+	width: 600rpx;
+	height: auto;
+	padding-top: 56rpx;
+	position: relative;
+}
+.homes {
+	display: inline-block;
+	width: 80rpx;
+	height: 53rpx;
+	float: left;
+}
+.begin {
+	width: 40rpx;
+	height: 40rpx;
+	display: inline-block;
+}
+.back {
+	width: 40rpx;
+	height: 40rpx;
+	display: inline-block;
+	padding-top: 8rpx;
+	padding-left: 25rpx;
+}
+.titles {
+	width: 517rpx;
+	height: 53rpx;
+	color: #FFFFFF;
+	font-size: 26rpx;
+	text-align: center;
+	line-height: 53rpx;
+	float: left;
+}
+.titles-text {
+	margin-left: 65rpx;
+}
+.rg-pic {
+	width: 100%;
+	height: 90rpx;
+	border: 1px solid #ccc;
+}
+.rg-texts {
+	height: auto;
+	width: 100%;
+}
+.rg-text {
+	width: 100%;
+	height: 120rpx;
+}
+.rg-content {
+	width: 100%;
+	height: auto;
+}
+.text-1 {
+	width: 120rpx;
+	height: 120rpx;
+	display: inline-block;
+	text-align: center;
+	line-height: 120rpx;
+	color: #9197B2;
+	font-size: 32rpx;
+	float: left;
+}
+.top-left {
+	width: 120rpx;
+	height: 90rpx;
+	display: inline-block;
+	font-size: 32rpx;
+	float: left;
+	text-align: center;
+	line-height: 116rpx;
+}
+.begins {
+	width: 50rpx;
+	height: 50rpx;
+	display: inline-block;
+}
+.top-certer {
+	display: inline-block;
+	width: 301rpx;
+	height: 90rpx;
+	float: left;
+	font-size: 28rpx;
+	line-height: 90rpx;
+}
+.alls {
+	font-size: 24rpx;
+	color: #8F8F94;
+}
+.top-right {
+	display: inline-block;
+	width: 330rpx;
+	height: 90rpx;
+	float: left;
+}
+.red-box {
+	width: 100%;
+	height: 90rpx;
+	background: red;
+	color: #FFFFFF;
+	font-size: 26rpx;
+	line-height: 90rpx;
+	text-align: center;
+	border-radius: 0px 30rpx 0px 0px;
+}
+.text-2 {
+	display: inline-block;
+	width: 631rpx;
+	height: 120rpx;
+	float: left;
+	border-bottom: 1.5px solid #F2F2F2;
+}
+.rg-namebox {
+	width: 520rpx;
+	display: inline-block;
+	height: 120rpx;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.rg-name {
+	width: 100%;
+	height: 50rpx;
+	display: block;
+	font-size: 33rpx;
+	margin-top: 27rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.rg-uname {
+	width: 100%;
+	height: 50rpx;
+	font-size: 25rpx;
+	color: #939397;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.rg-right {
+	float: left;
+	width: 111rpx;
+	height: 120rpx;
+}
+.rg-right-box {
+	text-align: center;
+	width: 100%;
+	height: 120rpx;
+	line-height: 120rpx;
+}
+

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/song/song",
+    "pages/top/top",
+    "pages/songs/songs",
+    "pages/tops/tops",
+    "pages/play/play"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#31C27C",
+    "backgroundColor": "#31C27C",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap92.json"
+}

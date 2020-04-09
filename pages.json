@@ -1,0 +1,35 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {"navigationBarTitleText": "网易云"}
+		}
+		, {
+			"path": "pages/song/song",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/top/top",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/songs/songs",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tops/tops",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/play/play",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "#31C27C",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#31C27C",
+		"backgroundColor": "#31C27C",
+		"navigationStyle": "custom"
+	}
+}

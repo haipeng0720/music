@@ -1,0 +1,658 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 导航栏样式 */
+.status_bar {
+	height: 140rpx;
+	width: 100%;
+	background: #31C27C;
+	position: relative;
+}
+.top-box {
+	width: 560rpx;
+	margin-left: 60rpx;
+	height: auto;
+	padding-top: 56rpx;
+	position: relative;
+}
+.btn {
+	width: 50rpx;
+	height: 56rpx;
+	position: absolute;
+	right: 160rpx;
+	top: 58rpx;
+	font-size: 24rpx;
+	color: #555555;
+	z-index: 999;
+	line-height: 54rpx;
+}
+.inp {
+	width: 400rpx;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	background: #F8F8F8;
+	color: #555555;
+	font-size: 24rpx;
+	padding-left: 20rpx;
+}
+.list,
+.lists {
+	width: 400rpx;
+	height: 400rpx;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 70rpx;
+	top: 115rpx;
+	z-index: 999;
+	background: #FFFFFF;
+}
+.list-title,
+.list-titles {
+	display: block;
+	width: 100%;
+	height: 60rpx;
+	font-size: 24rpx;
+	color: ;
+	line-height: 60rpx;
+	text-indent: 2em;
+}
+.list-titles {
+	height: 50rpx;
+	line-height: 50rpx;
+	background: #F5F5F7;
+}
+.list-host {
+	width: 92%;
+	height: 200rpx;
+	margin: auto;
+}
+.list-hosts {
+	width: 100%;
+	height: auto;
+	height: 200rpx;
+}
+.list-box {
+	width: auto;
+	padding: 0px 10rpx;
+	border-radius: 15px;
+	background: #ccc;
+	color: #808080;
+	font-size: 22rpx;
+	float: left;
+	margin: 10rpx 10rpx;
+}
+.list-boxs {
+	width: 100%;
+	height: 60rpx;
+	margin: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list-boxs text {
+	margin: 0px 10rpx;
+	font-size: 22rpx;
+	height: 40rpx;
+}
+.list-boxs-text1,
+.list-boxs-text2 {
+	display: inline-block;
+	padding-top: 10rpx;
+	width: 160rpx;
+	height: 40rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 40rpx;
+	text-align: center;
+}
+.list-boxs-text1 {
+	text-align: right;
+}
+.list-boxs-text2 {
+	text-align: left;
+}
+.list-boxs text:hover {
+	background: #EEEEEE;
+}
+/* tab切换样式 */
+.tab-box {
+	width: 100%;
+	height: 100rpx;
+	margin-bottom: 4rpx;
+}
+.back {
+	width: 40rpx;
+	height: 40rpx;
+	display: inline-block;
+	position: absolute;
+	right: 0rpx;
+	top: -2rpx;
+}
+.tab-wid {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.box-a,
+.box-b,
+.box-c {
+	width: 250rpx;
+	height: 100rpx;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 30rpx;
+	color: #968F88;
+}
+.tabco {
+	border-bottom: 2px solid red !important;
+	width: 100rpx;
+	height: 100rpx;
+	display: inline-block;
+}
+.tab-wid text {
+	display: inline-block;
+	border-bottom: 2px solid #FFFFFF;
+	width: 100rpx;
+	height: 100rpx;
+}
+.swiper {
+	width: 100%;
+	height: 330rpx;
+}
+.picc image {
+	width: 100%;
+	height: 330rpx;
+}
+.conten-box {
+	width: 95%;
+	height: 800rpx;
+	margin: auto;
+	margin-top: 10rpx;
+}
+.text-t {
+	font-size: 26rpx;
+	width: 140rpx;
+	height: 20px;
+	display: block;
+	position: relative;
+}
+.pic-box {
+	width: 100%;
+	height: 660rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin-top: 20rpx;
+}
+.poss {
+	position: absolute;
+	right: 12rpx;
+	top: 6rpx;
+	font-size: 22rpx;
+	color: #FFFFFF;
+}
+.b-box {
+	width: 230rpx;
+	height: auto;
+}
+.img-box {
+	width: 230rpx;
+	height: 230rpx;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+.b-box image {
+	width: 230rpx;
+	height: 230rpx;
+}
+.b-box-text {
+	font-size: 20rpx;
+	line-height: 35rpx;
+	margin-top: 10rpx;
+}
+/* 热歌榜 */
+.rg-pic {
+	width: 100%;
+	height: 440rpx;
+}
+.rg-texts {
+	height: auto;
+	width: 100%;
+}
+.rg-text {
+	width: 100%;
+	height: 120rpx;
+}
+.rg-content {
+	width: 100%;
+	height: auto;
+}
+.rg-pic image {
+	width: 100%;
+	height: 440rpx;
+}
+.text-1 {
+	width: 120rpx;
+	height: 120rpx;
+	display: inline-block;
+	text-align: center;
+	line-height: 120rpx;
+	color: #9197B2;
+	font-size: 32rpx;
+	float: left;
+}
+.text-2 {
+	display: inline-block;
+	width: 631rpx;
+	height: 120rpx;
+	float: left;
+	border-bottom: 1.5px solid #F2F2F2;
+}
+.rg-namebox {
+	width: 520rpx;
+
+	display: inline-block;
+	height: 120rpx;
+	float: left;
+}
+.rg-name {
+	width: 100%;
+	height: 50rpx;
+	display: block;
+	font-size: 33rpx;
+	margin-top: 27rpx;
+}
+.rg-uname {
+	width: 100%;
+	height: 50rpx;
+	font-size: 25rpx;
+	color: #939397;
+}
+.rg-right {
+	float: left;
+	width: 111rpx;
+	height: 120rpx;
+}
+.begin {
+	width: 50rpx;
+	height: 50rpx;
+	display: inline-block;
+}
+.rg-right-box {
+	text-align: center;
+	width: 100%;
+	height: 120rpx;
+	line-height: 150rpx;
+}
+/* 热门歌手 */
+.host-text {
+	display: block;
+	background: #D9DADB;
+	color: #FFFFFF;
+	width: 100%;
+	height: 38rpx;
+	font-size: 23rpx;
+	text-indent: 1em;
+	line-height: 38rpx;
+}
+.host-box {
+	width: 100%;
+	height: 600px;
+	background: #F2F3F4;
+	padding-top: 20rpx;
+}
+.box-box {
+	width: 98%;
+	height: 110rpx;
+	margin: auto;
+	border-bottom: 1px solid #ccc;
+}
+.host-pic {
+	display: inline-block;
+	width: 90rpx;
+	height: 90rpx;
+	float: left;
+	margin-top: 10rpx;
+}
+.host-name {
+	display: inline-block;
+	width: 635rpx;
+	float: left;
+	color: #454646;
+	font-size: 25rpx;
+	line-height: 110rpx;
+	text-indent: 1.5em;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.text-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+.uni-bg-red {
+	background-color: sienna;
+	width: 100%;
+	height: 300rpx;
+}
+

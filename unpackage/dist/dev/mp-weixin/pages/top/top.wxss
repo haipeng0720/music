@@ -1,0 +1,88 @@
+
+.status_bar {
+	height: 140rpx;
+	width: 100%;
+	background: #31C27C;
+}
+.toTop {
+	bottom: calc(0px + 10px)
+}
+.top-box {
+	width: 600rpx;
+	height: auto;
+	padding-top: 56rpx;
+	position: relative;
+}
+.homes {
+	display: inline-block;
+	width: 80rpx;
+	height: 53rpx;
+	float: left;
+}
+.back {
+	width: 40rpx;
+	height: 40rpx;
+	display: inline-block;
+	padding-top: 8rpx;
+	padding-left: 25rpx;
+	float: left;
+}
+.conten-box {
+	width: 95%;
+	height: 800rpx;
+	margin: auto;
+	margin-top: 10rpx;
+}
+.titles {
+	width: 517rpx;
+	height: 53rpx;
+	color: #FFFFFF;
+	font-size: 26rpx;
+	text-align: center;
+	line-height: 53rpx;
+	float: left;
+}
+.titles-text {
+	margin-left: 65rpx;
+}
+.pic-box {
+	width: 100%;
+	height: 660rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin-top: 20rpx;
+}
+.poss {
+	position: absolute;
+	right: 12rpx;
+	top: 6rpx;
+	font-size: 22rpx;
+	color: #FFFFFF;
+}
+.b-box {
+	width: 230rpx;
+	height: 280rpx;
+}
+.img-box {
+	width: 230rpx;
+	height: 230rpx;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+.b-box image {
+	width: 230rpx;
+	height: 230rpx;
+}
+.b-box-text {
+	font-size: 20rpx;
+	line-height: 35rpx;
+	margin-top: 10rpx;
+}
+
