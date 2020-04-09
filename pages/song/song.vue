@@ -9,7 +9,7 @@
 					<text class="titles-text">歌单</text>
 				</view>
 			</view>
-		</view>
+		</view>    
 		<view class="conten-box">
 			<view class="box1">
 				<view class="pic-box">
@@ -27,7 +27,6 @@
 		</view>
 	</view>
 </template>
-
 <script>
 	export default {
 		data() {
